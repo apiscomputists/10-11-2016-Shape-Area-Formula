@@ -1,0 +1,15 @@
+// Volume of Cone 
+import java.util.*;
+public class Vol
+{
+    public static void main()
+    {
+        Scanner sc = new Scanner(System.in);
+        double r, h;
+        System.out.println("-Volume of cone-\nValue of r: ");
+        r = sc.nextDouble();
+        System.out.println("Value of h: ");
+        h = sc.nextDouble();
+        System.out.println("Volume of the cone is " + ((1.0/3)*3.1416*r*r*h));
+    }
+}

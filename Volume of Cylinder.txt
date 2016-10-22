@@ -1,0 +1,16 @@
+// Chris Lee, Volume of Cylinder
+import java.util.*;
+public class volume
+{
+public static void main()
+{
+    double height, r, tot;
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Type is height: ");
+    height=sc.nextDouble();
+    System.out.println("Type is radius: ");
+    r=sc.nextDouble();
+    tot=(3.1415926535*(Math.pow(r,2))*height);
+    System.out.println("Volume of cylinder is: " + tot);
+}
+}
