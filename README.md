@@ -2,4 +2,4 @@
 
 
 - Club members were required to pick a shape of their choice. 
-- They then had to code a program that can calculate the area of that particular type of shape with measurements provided by the user.
+- They then had to code a program that can calculate the volume of that particular type of shape with measurements provided by the user.
